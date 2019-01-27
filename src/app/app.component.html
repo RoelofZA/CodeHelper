@@ -1,0 +1,20 @@
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">RoelofZA Snippets</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">Home</a>
+        <a routerLink="/snippets" routerLinkActive="active" class="nav-link">Snippets</a>
+        <a routerLink="/contact" routerLinkActive="active" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    </div>
+  </footer>
