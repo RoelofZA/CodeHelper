@@ -5,8 +5,17 @@
     RegEx
   </div>
   <div class="card-body">
-    <h5 class="card-title">RegEx for clearing Paths</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <h5 class="card-title">RegEx for clearing Paths from stored procedures in Capfin legacy code</h5>
+    <p class="card-text"></p>
+    Begining:
+    <pre><div class="pre-code">
+      <code>^([A-Za-z0-9_\\.():=&lt;&gt;? ]*)</code>
+    </div></pre>
+
+    Ending:
+    <pre><div class="pre-code">
+        <code>([A-Za-z0-9_\\.():;,=&lt;&gt; ]*)$</code>
+      </div></pre>
+    
   </div>
 </div>
